@@ -13,7 +13,7 @@ function App() {
     <>
     <div className='bg-gradient-to-r from-neutral-300 via-zinc-900 to-red-700
     w-screen h-screen flex justify-center relative'>
-      <div onChange={fade ?   'animate-pulse' :   'none'} className='border-2 border-solid border-indigo-500 w-2xl h-1/3 absolute top-35
+      <div onChange={fade ?'animate-pulse': 'none'} className='border-2 border-solid border-indigo-500 w-2xl h-1/3 absolute top-35
       flex justify-center relative'>
         <p className='absolute top-10 font-bold text-2xl hover:text-stone-50 cursor-pointer'>PokeDex Search</p>
         <img src="pokeball.gif" alt="" className='absolute h-1/2 right-2
