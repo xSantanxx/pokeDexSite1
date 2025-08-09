@@ -230,6 +230,8 @@ function App() {
     setApi('');
     setPokemonName('');
     document.getElementById('mainSprite').src = '';
+    document.getElementById('left').innerHTML = '';
+    document.getElementById('right').innerHTML = '';
     document.getElementById('evol').innerHTML = '';
     document.getElementById('evolNames').innerHTML = '';
   }
